@@ -285,6 +285,13 @@
                 <artifactId>simplesaga-saga</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.simplesource</groupId>
+                <artifactId>simplesaga-testutils</artifactId>
+                <version>${project.version}</version>
+                <type>test-jar</type>
+                <scope>test</scope>
+            </dependency>
 
             <!-- Test -->
             <dependency>
